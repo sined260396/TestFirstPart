@@ -1,8 +1,5 @@
 package com.sinelnikov;
 
-import lombok.NoArgsConstructor;
-
-@NoArgsConstructor
 public class PhoneNumberFormatter {
 
     private static final String FORMAT = "(***) ***-****";
@@ -33,5 +30,4 @@ public class PhoneNumberFormatter {
         }
         return phoneNumber.toString();
     }
-
 }
